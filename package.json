@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/abrahamin/mac-demo-repo/issues"
   },
-  "homepage": "https://github.com/abrahamin/mac-demo-repo#readme"
+  "homepage": "https://github.com/abrahamin/mac-demo-repo#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
