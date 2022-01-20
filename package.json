@@ -19,6 +19,7 @@
   "homepage": "https://github.com/abrahamin/mac-demo-repo#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.13.0"
   }
 }
