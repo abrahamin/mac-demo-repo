@@ -3,6 +3,9 @@ const sequelize = require('./config/connection')
 
 const exphbs = require('express-handlebars');
 
+const logger = require('morgan');
+const mongoose = require('mongoose');
+
 const path = require('path');
 const { middleware } = require('./middleware/middleware')
 const db = require("./db");
@@ -14,3 +17,5 @@ const app = express();
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
+
+app.use(logger('dev'));
