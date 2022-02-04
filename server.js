@@ -13,6 +13,8 @@ const PORT = process.env.PORT || 3001;
 
 app.use(middleware);
 
+app.use(compression());
+
 const app = express();
 
 app.engine('handlebars', hbs.engine);

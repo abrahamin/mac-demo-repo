@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/abrahamin/mac-demo-repo#readme",
   "dependencies": {
+    "compression": "^1.7.4",
     "dotenv": "^14.3.2",
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
